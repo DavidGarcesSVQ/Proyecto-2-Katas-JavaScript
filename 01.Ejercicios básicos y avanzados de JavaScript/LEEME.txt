@@ -1,0 +1,10 @@
+42 ejercicios de JavaScript
+
+Estructura:
+- ejercicio-01/ejercicio-01.js
+- ejercicio-02/ejercicio-02.js
+- ...
+- ejercicio-42/ejercicio-42.js
+
+Cada archivo es independiente. Para probar uno, abre su contenido en tu entorno JavaScript o impórtalo individualmente en un proyecto de pruebas.
+No cargues los 42 archivos a la vez en el mismo ámbito global, porque algunos declaran variables con el mismo nombre.
