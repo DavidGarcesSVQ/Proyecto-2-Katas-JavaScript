@@ -1,0 +1,90 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #111111;
+  color: #eeeeee;
+  font-family: Arial, sans-serif;
+}
+
+.cabecera {
+  background: linear-gradient(135deg, #350000, #111111);
+  text-align: center;
+  padding: 55px 20px;
+  border-bottom: 3px solid #b32626;
+}
+
+.cabecera h1 {
+  font-size: 42px;
+  letter-spacing: 6px;
+  color: #ffffff;
+}
+
+.cabecera p {
+  margin-top: 12px;
+  color: #bbbbbb;
+}
+
+.contenido {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.presentacion {
+  margin-bottom: 30px;
+}
+
+.etiqueta {
+  color: #e34b4b;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+}
+
+.presentacion h2 {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.descripcion {
+  color: #aaaaaa;
+  line-height: 1.6;
+}
+
+#lista-albums {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+#lista-albums li {
+  background-color: #222222;
+  border: 1px solid #3a3a3a;
+  border-left: 4px solid #b32626;
+  padding: 25px 20px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+#lista-albums li:hover {
+  background-color: #3a2020;
+  transform: translateY(-5px);
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  border-top: 1px solid #333333;
+  color: #777777;
+  font-size: 13px;
+}
+
